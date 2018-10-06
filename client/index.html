@@ -8,12 +8,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
 	<link rel="stylesheet" href="styles.css"/>
-
-	<script src="main.js"></script>
+	
+	
 </head>
 <body>
 	<header>
 		<h1 class="title"> NewsTweet</h1>
 	</header>
+
+	<main>
+		<form class="newsTweet-form">
+			<label for="name">Name</label>
+			<input class="u-full-width" type="text" id="name" name="name">
+			<label for="content">Latest news</label>
+			<input class="u-full-width" type="text" id="content" name="content">
+			<button class="button-primary">Send your News!</button>
+		</form>
+		<div class="loading">
+			<img src="Preloader_3.gif" alt="">
+		</div>
+	</main>
+	<script src="client.js" ></script>
 </body>
 </html>
